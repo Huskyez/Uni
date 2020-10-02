@@ -1,0 +1,9 @@
+rootProject.name = 'Zboruri'
+include 'FlightModel'
+include 'FlightPersistance'
+include 'FlightServer'
+include 'FlightServices'
+include 'FlightNetworking'
+include 'FlightClientFX'
+include 'RestServices'
+

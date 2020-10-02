@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class repository.BiletRepositoryTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class repository.BiletRepositoryTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/repository.html">repository</a> &gt; BiletRepositoryTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">4</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.300s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">delete</td>
+<td class="success">0.219s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">findAll</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">findOne</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">save</td>
+<td class="success">0.066s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>20 Mar 2019 08:43:53,051 TRACE repository.BiletRepository 43 delete - Enter Deleting ticket with id=3
+20 Mar 2019 08:43:53,054 TRACE repository.DatabaseUtils 39 getConnection - Enter
+20 Mar 2019 08:43:53,054 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+20 Mar 2019 08:43:53,055 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+20 Mar 2019 08:43:53,058 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+20 Mar 2019 08:43:53,193 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@2d553977)
+20 Mar 2019 08:43:53,260 TRACE repository.BiletRepository 51 delete - Exit
+20 Mar 2019 08:43:53,261 TRACE repository.BiletRepository 56 size - Enter
+20 Mar 2019 08:43:53,261 TRACE repository.DatabaseUtils 39 getConnection - Enter
+20 Mar 2019 08:43:53,261 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+20 Mar 2019 08:43:53,262 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+20 Mar 2019 08:43:53,262 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+20 Mar 2019 08:43:53,263 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@2614c6d6)
+20 Mar 2019 08:43:53,264 TRACE repository.BiletRepository 61 size - Exit with(2)
+20 Mar 2019 08:43:53,265 TRACE repository.BiletRepository 99 findAll - Enter
+20 Mar 2019 08:43:53,265 TRACE repository.DatabaseUtils 39 getConnection - Enter
+20 Mar 2019 08:43:53,265 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+20 Mar 2019 08:43:53,266 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+20 Mar 2019 08:43:53,266 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+20 Mar 2019 08:43:53,267 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@f98ee20)
+20 Mar 2019 08:43:53,268 TRACE repository.BiletRepository 117 findAll - Exit with([Bilet{ID=1, zborID=1, clientID=1, turisti='Vasile, Gheorghe', locuri=20}, Bilet{ID=2, zborID=2, clientID=2, turisti='Ciprian, Bogdan', locuri=10}])
+20 Mar 2019 08:43:53,269 TRACE repository.BiletRepository 56 size - Enter
+20 Mar 2019 08:43:53,269 TRACE repository.DatabaseUtils 39 getConnection - Enter
+20 Mar 2019 08:43:53,270 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+20 Mar 2019 08:43:53,270 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+20 Mar 2019 08:43:53,270 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+20 Mar 2019 08:43:53,271 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@172f5b7f)
+20 Mar 2019 08:43:53,272 TRACE repository.BiletRepository 61 size - Exit with(2)
+20 Mar 2019 08:43:53,273 TRACE repository.BiletRepository 73 findOne - Enter Finding ticket with id = 1
+20 Mar 2019 08:43:53,274 TRACE repository.DatabaseUtils 39 getConnection - Enter
+20 Mar 2019 08:43:53,274 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+20 Mar 2019 08:43:53,274 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+20 Mar 2019 08:43:53,275 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+20 Mar 2019 08:43:53,275 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@6ea87047)
+20 Mar 2019 08:43:53,276 TRACE repository.BiletRepository 85 findOne - Exit
+20 Mar 2019 08:43:53,277 TRACE repository.BiletRepository 73 findOne - Enter Finding ticket with id = 2
+20 Mar 2019 08:43:53,277 TRACE repository.DatabaseUtils 39 getConnection - Enter
+20 Mar 2019 08:43:53,278 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+20 Mar 2019 08:43:53,278 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+20 Mar 2019 08:43:53,278 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+20 Mar 2019 08:43:53,279 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@5f783ca)
+20 Mar 2019 08:43:53,280 TRACE repository.BiletRepository 85 findOne - Exit
+20 Mar 2019 08:43:53,281 TRACE repository.BiletRepository 56 size - Enter
+20 Mar 2019 08:43:53,281 TRACE repository.DatabaseUtils 39 getConnection - Enter
+20 Mar 2019 08:43:53,282 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+20 Mar 2019 08:43:53,282 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+20 Mar 2019 08:43:53,282 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+20 Mar 2019 08:43:53,283 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@2ebab140)
+20 Mar 2019 08:43:53,284 TRACE repository.BiletRepository 61 size - Exit with(2)
+20 Mar 2019 08:43:53,285 TRACE repository.BiletRepository 25 save - Enter Saving ticket with id: 3
+20 Mar 2019 08:43:53,285 TRACE repository.DatabaseUtils 39 getConnection - Enter
+20 Mar 2019 08:43:53,285 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+20 Mar 2019 08:43:53,285 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+20 Mar 2019 08:43:53,286 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+20 Mar 2019 08:43:53,287 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@4323f34b)
+20 Mar 2019 08:43:53,343 TRACE repository.BiletRepository 37 save - Exit
+20 Mar 2019 08:43:53,344 TRACE repository.BiletRepository 56 size - Enter
+20 Mar 2019 08:43:53,344 TRACE repository.DatabaseUtils 39 getConnection - Enter
+20 Mar 2019 08:43:53,344 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+20 Mar 2019 08:43:53,344 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+20 Mar 2019 08:43:53,345 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+20 Mar 2019 08:43:53,345 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@6e248920)
+20 Mar 2019 08:43:53,346 TRACE repository.BiletRepository 61 size - Exit with(3)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.10</a> at Mar 20, 2019 8:43:53 AM</p>
+</div>
+</div>
+</body>
+</html>

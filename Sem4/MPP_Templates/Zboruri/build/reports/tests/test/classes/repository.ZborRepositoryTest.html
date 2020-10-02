@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class repository.ZborRepositoryTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class repository.ZborRepositoryTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/repository.html">repository</a> &gt; ZborRepositoryTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">4</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.219s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">delete</td>
+<td class="success">0.081s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">findAll</td>
+<td class="success">0.039s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">findOne</td>
+<td class="success">0.015s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">save</td>
+<td class="success">0.084s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>20 Mar 2019 08:43:53,544 TRACE repository.ZborRepository 42 delete - Enter Deleting flight with id=3
+20 Mar 2019 08:43:53,545 TRACE repository.DatabaseUtils 39 getConnection - Enter
+20 Mar 2019 08:43:53,545 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+20 Mar 2019 08:43:53,546 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+20 Mar 2019 08:43:53,546 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+20 Mar 2019 08:43:53,547 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@397b1a2b)
+20 Mar 2019 08:43:53,613 TRACE repository.ZborRepository 50 delete - Exit
+20 Mar 2019 08:43:53,614 TRACE repository.ZborRepository 55 size - Enter
+20 Mar 2019 08:43:53,614 TRACE repository.DatabaseUtils 39 getConnection - Enter
+20 Mar 2019 08:43:53,615 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+20 Mar 2019 08:43:53,615 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+20 Mar 2019 08:43:53,616 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+20 Mar 2019 08:43:53,617 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@287cbfcc)
+20 Mar 2019 08:43:53,619 TRACE repository.ZborRepository 60 size - Exit with(2)
+20 Mar 2019 08:43:53,620 TRACE repository.ZborRepository 97 findAll - Enter
+20 Mar 2019 08:43:53,621 TRACE repository.DatabaseUtils 39 getConnection - Enter
+20 Mar 2019 08:43:53,622 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+20 Mar 2019 08:43:53,622 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+20 Mar 2019 08:43:53,623 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+20 Mar 2019 08:43:53,624 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@5666df3)
+20 Mar 2019 08:43:53,652 TRACE repository.ZborRepository 115 findAll - Exit with([Zbor{ID=1, destinatie='Paris', plecare=2019-03-12T13:44, aeroport='BUD', locuri=150}, Zbor{ID=2, destinatie='Copenhaga', plecare=2019-03-20T12:22, aeroport='LYS', locuri=200}])
+20 Mar 2019 08:43:53,654 TRACE repository.ZborRepository 55 size - Enter
+20 Mar 2019 08:43:53,654 TRACE repository.DatabaseUtils 39 getConnection - Enter
+20 Mar 2019 08:43:53,655 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+20 Mar 2019 08:43:53,655 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+20 Mar 2019 08:43:53,656 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+20 Mar 2019 08:43:53,657 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@4642dd08)
+20 Mar 2019 08:43:53,658 TRACE repository.ZborRepository 60 size - Exit with(2)
+20 Mar 2019 08:43:53,660 TRACE repository.ZborRepository 72 findOne - Enter Finding flight with id = 1
+20 Mar 2019 08:43:53,661 TRACE repository.DatabaseUtils 39 getConnection - Enter
+20 Mar 2019 08:43:53,661 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+20 Mar 2019 08:43:53,662 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+20 Mar 2019 08:43:53,663 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+20 Mar 2019 08:43:53,664 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@4062e464)
+20 Mar 2019 08:43:53,666 TRACE repository.ZborRepository 84 findOne - Exit
+20 Mar 2019 08:43:53,668 TRACE repository.ZborRepository 72 findOne - Enter Finding flight with id = 2
+20 Mar 2019 08:43:53,668 TRACE repository.DatabaseUtils 39 getConnection - Enter
+20 Mar 2019 08:43:53,669 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+20 Mar 2019 08:43:53,670 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+20 Mar 2019 08:43:53,670 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+20 Mar 2019 08:43:53,672 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@7b6205dd)
+20 Mar 2019 08:43:53,673 TRACE repository.ZborRepository 84 findOne - Exit
+20 Mar 2019 08:43:53,675 TRACE repository.ZborRepository 55 size - Enter
+20 Mar 2019 08:43:53,678 TRACE repository.DatabaseUtils 39 getConnection - Enter
+20 Mar 2019 08:43:53,679 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+20 Mar 2019 08:43:53,680 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+20 Mar 2019 08:43:53,681 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+20 Mar 2019 08:43:53,682 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@7713eff4)
+20 Mar 2019 08:43:53,684 TRACE repository.ZborRepository 60 size - Exit with(2)
+20 Mar 2019 08:43:53,686 TRACE repository.ZborRepository 25 save - Enter Saving flight with id: 3
+20 Mar 2019 08:43:53,687 TRACE repository.DatabaseUtils 39 getConnection - Enter
+20 Mar 2019 08:43:53,688 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+20 Mar 2019 08:43:53,689 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+20 Mar 2019 08:43:53,690 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+20 Mar 2019 08:43:53,692 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@2769d683)
+20 Mar 2019 08:43:53,755 TRACE repository.ZborRepository 37 save - Exit
+20 Mar 2019 08:43:53,755 TRACE repository.ZborRepository 55 size - Enter
+20 Mar 2019 08:43:53,756 TRACE repository.DatabaseUtils 39 getConnection - Enter
+20 Mar 2019 08:43:53,756 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+20 Mar 2019 08:43:53,756 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+20 Mar 2019 08:43:53,756 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+20 Mar 2019 08:43:53,757 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@70ff47ce)
+20 Mar 2019 08:43:53,758 TRACE repository.ZborRepository 60 size - Exit with(3)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.10</a> at Mar 20, 2019 8:43:53 AM</p>
+</div>
+</div>
+</body>
+</html>

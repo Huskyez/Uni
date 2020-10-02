@@ -1,0 +1,25 @@
+﻿  main.cpp
+D:\Uni\Sem5\Grafica pe Calculator\laborator1\pixel\pixel\pixel\main.cpp(47,34): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+main.obj : error LNK2019: unresolved external symbol _glewInit@0 referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwInit referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwTerminate referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwWindowHint referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwCreateWindow referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwDestroyWindow referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwWindowShouldClose referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwPollEvents referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwMakeContextCurrent referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwSwapBuffers referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwSwapInterval referenced in function _main
+main.obj : error LNK2001: unresolved external symbol ___glewAttachShader
+main.obj : error LNK2001: unresolved external symbol ___glewCompileShader
+main.obj : error LNK2001: unresolved external symbol ___glewCreateProgram
+main.obj : error LNK2001: unresolved external symbol ___glewCreateShader
+main.obj : error LNK2001: unresolved external symbol ___glewLinkProgram
+main.obj : error LNK2001: unresolved external symbol ___glewShaderSource
+main.obj : error LNK2001: unresolved external symbol ___glewUseProgram
+main.obj : error LNK2001: unresolved external symbol ___glewBindVertexArray
+main.obj : error LNK2001: unresolved external symbol ___glewGenVertexArrays
+D:\Uni\Sem5\Grafica pe Calculator\glfw\lib-vc2019\glfw3.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\Uni\Sem5\Grafica pe Calculator\glew\lib\Release\x64\glew32s.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\Uni\Sem5\Grafica pe Calculator\laborator1\pixel\pixel\Debug\pixel.exe : fatal error LNK1120: 20 unresolved externals

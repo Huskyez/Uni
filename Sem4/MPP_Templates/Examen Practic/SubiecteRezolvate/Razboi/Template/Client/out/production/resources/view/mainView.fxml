@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+   <children>
+      <Button fx:id="logoutButton" layoutX="491.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleLogout" prefHeight="26.0" prefWidth="102.0" text="Logout" />
+      <Button layoutX="491.0" layoutY="284.0" mnemonicParsing="false" onAction="#handleStart" prefHeight="26.0" prefWidth="102.0" text="Start" />
+      <TableView fx:id="tableViewJucatori" layoutX="41.0" layoutY="39.0" prefHeight="200.0" prefWidth="109.0">
+        <columns>
+          <TableColumn fx:id="columnJucatori" prefWidth="108.80000076293945" text="Jucatori" />
+        </columns>
+      </TableView>
+      <TableView fx:id="tableViewCarti" layoutX="188.0" layoutY="39.0" prefHeight="200.0" prefWidth="102.0">
+        <columns>
+          <TableColumn fx:id="columnCarti" prefWidth="101.60001220703126" text="Carti" />
+        </columns>
+      </TableView>
+      <Button layoutX="188.0" layoutY="257.0" mnemonicParsing="false" onAction="#handleAlegere" prefHeight="26.0" prefWidth="102.0" text="Am ales" />
+   </children>
+</AnchorPane>

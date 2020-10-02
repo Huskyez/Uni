@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="repository.ClientRepositoryTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-03-20T06:43:53" hostname="Ciprian-PC" time="0.186">
+  <properties/>
+  <testcase name="delete" classname="repository.ClientRepositoryTest" time="0.08"/>
+  <testcase name="findAll" classname="repository.ClientRepositoryTest" time="0.013"/>
+  <testcase name="findOne" classname="repository.ClientRepositoryTest" time="0.014"/>
+  <testcase name="save" classname="repository.ClientRepositoryTest" time="0.078"/>
+  <system-out><![CDATA[20 Mar 2019 08:43:53,351 TRACE repository.ClientRepository 40 delete - Enter Deleting client with id=3
+20 Mar 2019 08:43:53,351 TRACE repository.DatabaseUtils 39 getConnection - Enter
+20 Mar 2019 08:43:53,352 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+20 Mar 2019 08:43:53,352 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+20 Mar 2019 08:43:53,352 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+20 Mar 2019 08:43:53,353 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@2cbf35f2)
+20 Mar 2019 08:43:53,423 TRACE repository.ClientRepository 48 delete - Exit
+20 Mar 2019 08:43:53,424 TRACE repository.ClientRepository 53 size - Enter
+20 Mar 2019 08:43:53,424 TRACE repository.DatabaseUtils 39 getConnection - Enter
+20 Mar 2019 08:43:53,425 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+20 Mar 2019 08:43:53,425 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+20 Mar 2019 08:43:53,426 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+20 Mar 2019 08:43:53,427 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@70da3285)
+20 Mar 2019 08:43:53,428 TRACE repository.ClientRepository 58 size - Exit with(2)
+20 Mar 2019 08:43:53,429 TRACE repository.ClientRepository 94 findAll - Enter
+20 Mar 2019 08:43:53,430 TRACE repository.DatabaseUtils 39 getConnection - Enter
+20 Mar 2019 08:43:53,431 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+20 Mar 2019 08:43:53,431 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+20 Mar 2019 08:43:53,432 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+20 Mar 2019 08:43:53,433 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@3a7dd837)
+20 Mar 2019 08:43:53,435 TRACE repository.ClientRepository 110 findAll - Exit with([Client{ID=1, nume='Ionut Frent', adresa='Manastur, CLuj'}, Client{ID=2, nume='Adrian Tamas', adresa='Grigorescu, Cluj'}])
+20 Mar 2019 08:43:53,436 TRACE repository.ClientRepository 53 size - Enter
+20 Mar 2019 08:43:53,437 TRACE repository.DatabaseUtils 39 getConnection - Enter
+20 Mar 2019 08:43:53,437 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+20 Mar 2019 08:43:53,438 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+20 Mar 2019 08:43:53,438 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+20 Mar 2019 08:43:53,439 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@3c26e1a3)
+20 Mar 2019 08:43:53,441 TRACE repository.ClientRepository 58 size - Exit with(2)
+20 Mar 2019 08:43:53,442 TRACE repository.ClientRepository 70 findOne - Enter Finding client with id = 1
+20 Mar 2019 08:43:53,443 TRACE repository.DatabaseUtils 39 getConnection - Enter
+20 Mar 2019 08:43:53,444 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+20 Mar 2019 08:43:53,445 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+20 Mar 2019 08:43:53,445 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+20 Mar 2019 08:43:53,447 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@68ce3a70)
+20 Mar 2019 08:43:53,449 TRACE repository.ClientRepository 80 findOne - Exit
+20 Mar 2019 08:43:53,450 TRACE repository.ClientRepository 70 findOne - Enter Finding client with id = 2
+20 Mar 2019 08:43:53,450 TRACE repository.DatabaseUtils 39 getConnection - Enter
+20 Mar 2019 08:43:53,451 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+20 Mar 2019 08:43:53,452 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+20 Mar 2019 08:43:53,452 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+20 Mar 2019 08:43:53,454 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@40bcffb8)
+20 Mar 2019 08:43:53,455 TRACE repository.ClientRepository 80 findOne - Exit
+20 Mar 2019 08:43:53,457 TRACE repository.ClientRepository 53 size - Enter
+20 Mar 2019 08:43:53,457 TRACE repository.DatabaseUtils 39 getConnection - Enter
+20 Mar 2019 08:43:53,458 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+20 Mar 2019 08:43:53,458 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+20 Mar 2019 08:43:53,459 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+20 Mar 2019 08:43:53,460 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@109194a4)
+20 Mar 2019 08:43:53,462 TRACE repository.ClientRepository 58 size - Exit with(2)
+20 Mar 2019 08:43:53,462 TRACE repository.ClientRepository 25 save - Enter Saving client with id: 3
+20 Mar 2019 08:43:53,463 TRACE repository.DatabaseUtils 39 getConnection - Enter
+20 Mar 2019 08:43:53,463 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+20 Mar 2019 08:43:53,464 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+20 Mar 2019 08:43:53,464 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+20 Mar 2019 08:43:53,465 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@1bb144ec)
+20 Mar 2019 08:43:53,529 TRACE repository.ClientRepository 35 save - Exit
+20 Mar 2019 08:43:53,530 TRACE repository.ClientRepository 53 size - Enter
+20 Mar 2019 08:43:53,530 TRACE repository.DatabaseUtils 39 getConnection - Enter
+20 Mar 2019 08:43:53,531 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+20 Mar 2019 08:43:53,531 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+20 Mar 2019 08:43:53,532 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+20 Mar 2019 08:43:53,533 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@2b5e050)
+20 Mar 2019 08:43:53,534 TRACE repository.ClientRepository 58 size - Exit with(3)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

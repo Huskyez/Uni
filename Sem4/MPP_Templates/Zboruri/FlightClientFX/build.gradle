@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+group 'Zboruri'
+version '1.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    
+    compile project(':FlightModel')
+    compile project(':FlightServices')
+    compile project(':FlightNetworking')
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}

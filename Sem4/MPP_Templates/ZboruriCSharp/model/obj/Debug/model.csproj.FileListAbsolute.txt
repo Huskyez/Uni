@@ -1,0 +1,5 @@
+E:\Sem 2 An 2\MPP\ZboruriCSharp\model\bin\Debug\model.dll
+E:\Sem 2 An 2\MPP\ZboruriCSharp\model\bin\Debug\model.pdb
+E:\Sem 2 An 2\MPP\ZboruriCSharp\model\obj\Debug\model.csproj.CoreCompileInputs.cache
+E:\Sem 2 An 2\MPP\ZboruriCSharp\model\obj\Debug\model.dll
+E:\Sem 2 An 2\MPP\ZboruriCSharp\model\obj\Debug\model.pdb

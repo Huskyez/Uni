@@ -1,0 +1,18 @@
+26 Feb 2018 10:43:31,910 TRACE jurnal.TestService 33 retrieveMessage - Enter
+26 Feb 2018 10:43:31,913 TRACE jurnal.TestService 60 getKey - Enter
+26 Feb 2018 10:43:31,915 TRACE jurnal.TestService 62 getKey - Exit with(0)
+26 Feb 2018 10:43:31,916 TRACE jurnal.TestService 52 getMessage - Enter params(0)
+26 Feb 2018 10:43:31,916 TRACE jurnal.TestService 56 getMessage - Exit with(Hello!)
+26 Feb 2018 10:43:31,917 TRACE jurnal.TestService 37 retrieveMessage - Exit with(Hello!)
+26 Feb 2018 10:43:31,917 TRACE jurnal.TestService 33 retrieveMessage - Enter
+26 Feb 2018 10:43:31,917 TRACE jurnal.TestService 60 getKey - Enter
+26 Feb 2018 10:43:31,917 TRACE jurnal.TestService 62 getKey - Exit with(1)
+26 Feb 2018 10:43:31,918 TRACE jurnal.TestService 52 getMessage - Enter params(1)
+26 Feb 2018 10:43:31,918 TRACE jurnal.TestService 56 getMessage - Exit with(Goodbye!)
+26 Feb 2018 10:43:31,919 TRACE jurnal.TestService 37 retrieveMessage - Exit with(Goodbye!)
+26 Feb 2018 10:43:31,919 TRACE jurnal.TestService 41 exampleException - Enter
+26 Feb 2018 10:43:31,920 ERROR jurnal.TestService 46 exampleException - Catching
+java.lang.ArrayIndexOutOfBoundsException: 3
+	at jurnal.TestService.exampleException(TestService.java:43) [main/:?]
+	at jurnal.TestApp.main(TestApp.java:12) [main/:?]
+26 Feb 2018 10:43:31,925 TRACE jurnal.TestService 48 exampleException - Exit

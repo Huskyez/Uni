@@ -1,0 +1,3 @@
+﻿  main.cpp
+D:\Uni\Sem5\Grafica pe Calculator\laborator1\pixel\pixel\pixel\main.cpp(52,34): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+  pixel.vcxproj -> D:\Uni\Sem5\Grafica pe Calculator\laborator1\pixel\pixel\x64\Debug\pixel.exe

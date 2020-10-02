@@ -1,0 +1,50 @@
+C:\Users\Ciprian\Desktop\ZboruriCSharp\ZboruriCSharp\bin\Debug\ZboruriCSharp.exe.config
+C:\Users\Ciprian\Desktop\ZboruriCSharp\ZboruriCSharp\bin\Debug\ZboruriCSharp.exe
+C:\Users\Ciprian\Desktop\ZboruriCSharp\ZboruriCSharp\bin\Debug\ZboruriCSharp.pdb
+C:\Users\Ciprian\Desktop\ZboruriCSharp\ZboruriCSharp\bin\Debug\EntityFramework.dll
+C:\Users\Ciprian\Desktop\ZboruriCSharp\ZboruriCSharp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ciprian\Desktop\ZboruriCSharp\ZboruriCSharp\bin\Debug\System.Data.SQLite.dll
+C:\Users\Ciprian\Desktop\ZboruriCSharp\ZboruriCSharp\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Ciprian\Desktop\ZboruriCSharp\ZboruriCSharp\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Ciprian\Desktop\ZboruriCSharp\ZboruriCSharp\bin\Debug\EntityFramework.xml
+C:\Users\Ciprian\Desktop\ZboruriCSharp\ZboruriCSharp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ciprian\Desktop\ZboruriCSharp\ZboruriCSharp\bin\Debug\System.Data.SQLite.xml
+C:\Users\Ciprian\Desktop\ZboruriCSharp\ZboruriCSharp\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\Ciprian\Desktop\ZboruriCSharp\ZboruriCSharp\obj\Debug\ZboruriCSharp.csprojAssemblyReference.cache
+C:\Users\Ciprian\Desktop\ZboruriCSharp\ZboruriCSharp\obj\Debug\ZboruriCSharp.Properties.Resources.resources
+C:\Users\Ciprian\Desktop\ZboruriCSharp\ZboruriCSharp\obj\Debug\ZboruriCSharp.csproj.GenerateResource.cache
+C:\Users\Ciprian\Desktop\ZboruriCSharp\ZboruriCSharp\obj\Debug\ZboruriCSharp.csproj.CoreCompileInputs.cache
+C:\Users\Ciprian\Desktop\ZboruriCSharp\ZboruriCSharp\obj\Debug\ZboruriCSharp.csproj.CopyComplete
+C:\Users\Ciprian\Desktop\ZboruriCSharp\ZboruriCSharp\obj\Debug\ZboruriCSharp.exe
+C:\Users\Ciprian\Desktop\ZboruriCSharp\ZboruriCSharp\obj\Debug\ZboruriCSharp.pdb
+C:\Users\Ciprian\Desktop\ZboruriCSharp\ZboruriCSharp\bin\Debug\ConnectionUtils.exe
+C:\Users\Ciprian\Desktop\ZboruriCSharp\ZboruriCSharp\bin\Debug\log4net.dll
+C:\Users\Ciprian\Desktop\ZboruriCSharp\ZboruriCSharp\bin\Debug\ConnectionUtils.pdb
+C:\Users\Ciprian\Desktop\ZboruriCSharp\ZboruriCSharp\bin\Debug\ConnectionUtils.exe.config
+C:\Users\Ciprian\Desktop\ZboruriCSharp\ZboruriCSharp\bin\Debug\log4net.xml
+E:\Sem 2 An 2\MPP\ZboruriCSharp\ZboruriCSharp\bin\Debug\ZboruriCSharp.exe.config
+E:\Sem 2 An 2\MPP\ZboruriCSharp\ZboruriCSharp\bin\Debug\ZboruriCSharp.exe
+E:\Sem 2 An 2\MPP\ZboruriCSharp\ZboruriCSharp\bin\Debug\ZboruriCSharp.pdb
+E:\Sem 2 An 2\MPP\ZboruriCSharp\ZboruriCSharp\bin\Debug\ConnectionUtils.exe
+E:\Sem 2 An 2\MPP\ZboruriCSharp\ZboruriCSharp\bin\Debug\EntityFramework.dll
+E:\Sem 2 An 2\MPP\ZboruriCSharp\ZboruriCSharp\bin\Debug\EntityFramework.SqlServer.dll
+E:\Sem 2 An 2\MPP\ZboruriCSharp\ZboruriCSharp\bin\Debug\log4net.dll
+E:\Sem 2 An 2\MPP\ZboruriCSharp\ZboruriCSharp\bin\Debug\System.Data.SQLite.dll
+E:\Sem 2 An 2\MPP\ZboruriCSharp\ZboruriCSharp\bin\Debug\System.Data.SQLite.EF6.dll
+E:\Sem 2 An 2\MPP\ZboruriCSharp\ZboruriCSharp\bin\Debug\System.Data.SQLite.Linq.dll
+E:\Sem 2 An 2\MPP\ZboruriCSharp\ZboruriCSharp\bin\Debug\ConnectionUtils.pdb
+E:\Sem 2 An 2\MPP\ZboruriCSharp\ZboruriCSharp\bin\Debug\ConnectionUtils.exe.config
+E:\Sem 2 An 2\MPP\ZboruriCSharp\ZboruriCSharp\bin\Debug\EntityFramework.xml
+E:\Sem 2 An 2\MPP\ZboruriCSharp\ZboruriCSharp\bin\Debug\EntityFramework.SqlServer.xml
+E:\Sem 2 An 2\MPP\ZboruriCSharp\ZboruriCSharp\bin\Debug\log4net.xml
+E:\Sem 2 An 2\MPP\ZboruriCSharp\ZboruriCSharp\bin\Debug\System.Data.SQLite.xml
+E:\Sem 2 An 2\MPP\ZboruriCSharp\ZboruriCSharp\bin\Debug\System.Data.SQLite.dll.config
+E:\Sem 2 An 2\MPP\ZboruriCSharp\ZboruriCSharp\obj\Debug\ZboruriCSharp.csprojAssemblyReference.cache
+E:\Sem 2 An 2\MPP\ZboruriCSharp\ZboruriCSharp\obj\Debug\ZboruriCSharp.Properties.Resources.resources
+E:\Sem 2 An 2\MPP\ZboruriCSharp\ZboruriCSharp\obj\Debug\ZboruriCSharp.csproj.GenerateResource.cache
+E:\Sem 2 An 2\MPP\ZboruriCSharp\ZboruriCSharp\obj\Debug\ZboruriCSharp.csproj.CoreCompileInputs.cache
+E:\Sem 2 An 2\MPP\ZboruriCSharp\ZboruriCSharp\obj\Debug\ZboruriCSharp.csproj.CopyComplete
+E:\Sem 2 An 2\MPP\ZboruriCSharp\ZboruriCSharp\obj\Debug\ZboruriCSharp.exe
+E:\Sem 2 An 2\MPP\ZboruriCSharp\ZboruriCSharp\obj\Debug\ZboruriCSharp.pdb
+E:\Sem 2 An 2\MPP\ZboruriCSharp\ZboruriCSharp\obj\Debug\ZboruriCSharp.LogInForm.resources
+E:\Sem 2 An 2\MPP\ZboruriCSharp\ZboruriCSharp\obj\Debug\ZboruriCSharp.MainWindowForm.resources

@@ -1,0 +1,21 @@
+<?xml version ="1.0"encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+    <util:properties id ="jdbcProps" location="database.config"/>
+
+        <bean id="clientRepo" class="repository.ClientRepository">
+            <constructor-arg ref="jdbcProps"/>
+        </bean>
+
+        <bean id="clientService" class="service.ClientService">
+            <constructor-arg ref="clientRepo"/>
+        </bean>
+
+        <bean id="client" class="domain.Client">
+            <constructor-arg index="0" value="1"/>
+            <constructor-arg index="1" value="Tamas Adrian"/>
+            <constructor-arg index="2" value="Grigorescu, Cluj"/>
+        </bean>
+</beans>

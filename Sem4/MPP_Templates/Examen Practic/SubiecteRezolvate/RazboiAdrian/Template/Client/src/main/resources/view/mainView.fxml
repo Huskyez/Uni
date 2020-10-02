@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="510.0" prefWidth="664.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+   <children>
+      <Button fx:id="logoutButton" layoutX="498.0" layoutY="1.0" mnemonicParsing="false" onAction="#handleLogout" prefHeight="26.0" prefWidth="102.0" text="Logout" />
+      <TableView fx:id="tableViewParticipanti" layoutY="1.0" prefHeight="450.0" prefWidth="134.0">
+        <columns>
+          <TableColumn fx:id="tableColumnParticipantiJoc" prefWidth="131.20001220703125" text="Participanti Joc" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnStartJoc" layoutY="463.0" mnemonicParsing="false" onAction="#handleStartJoc" prefHeight="26.0" prefWidth="134.0" text="Start joc" />
+      <TableView fx:id="tableViewPachetCarti" layoutX="143.0" layoutY="1.0" prefHeight="236.0" prefWidth="134.0">
+        <columns>
+          <TableColumn fx:id="tableColumnPachetCarti" prefWidth="132.800048828125" text="Pachet carti" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnTrimiteCarte" layoutX="143.0" layoutY="255.0" mnemonicParsing="false" onAction="#handleTrimiteCarte" prefHeight="26.0" prefWidth="134.0" text="Alege carte" />
+      <TableView fx:id="tableViewCartiAdversari" layoutX="294.0" layoutY="1.0" prefHeight="236.0" prefWidth="134.0">
+        <columns>
+          <TableColumn fx:id="tableColumnCartiAdversar" prefWidth="133.60001220703126" text="Carti Tura" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

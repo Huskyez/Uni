@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CorectorController">
+   <children>
+      <TableView fx:id="tableView" layoutX="14.0" layoutY="18.0" prefHeight="363.0" prefWidth="200.0">
+        <columns>
+          <TableColumn fx:id="tableColumnPaperId" prefWidth="199.20001220703125" text="paperID" />
+        </columns>
+      </TableView>
+      <TextField fx:id="notaTextField" alignment="TOP_CENTER" layoutX="323.0" layoutY="126.0" promptText="Introduceti nota " />
+      <Button fx:id="evaluareLucrareBtn" layoutX="322.0" layoutY="187.0" mnemonicParsing="false" onAction="#handleEvaluareLucrare" prefHeight="26.0" prefWidth="149.0" text="Evalueaza lucrarea" />
+      <Button fx:id="logoutBtn" layoutX="531.0" layoutY="1.0" mnemonicParsing="false" onAction="#handleLogout" prefHeight="26.0" prefWidth="71.0" text="Logout" />
+   </children>
+</AnchorPane>

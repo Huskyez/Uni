@@ -1,0 +1,34 @@
+C:\Users\Ciprian\Desktop\ZboruriCSharp\ConnectionUtils\bin\Debug\ConnectionUtils.exe.config
+C:\Users\Ciprian\Desktop\ZboruriCSharp\ConnectionUtils\bin\Debug\ConnectionUtils.exe
+C:\Users\Ciprian\Desktop\ZboruriCSharp\ConnectionUtils\bin\Debug\ConnectionUtils.pdb
+C:\Users\Ciprian\Desktop\ZboruriCSharp\ConnectionUtils\bin\Debug\EntityFramework.dll
+C:\Users\Ciprian\Desktop\ZboruriCSharp\ConnectionUtils\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ciprian\Desktop\ZboruriCSharp\ConnectionUtils\bin\Debug\System.Data.SQLite.dll
+C:\Users\Ciprian\Desktop\ZboruriCSharp\ConnectionUtils\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Ciprian\Desktop\ZboruriCSharp\ConnectionUtils\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Ciprian\Desktop\ZboruriCSharp\ConnectionUtils\bin\Debug\EntityFramework.xml
+C:\Users\Ciprian\Desktop\ZboruriCSharp\ConnectionUtils\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ciprian\Desktop\ZboruriCSharp\ConnectionUtils\bin\Debug\System.Data.SQLite.xml
+C:\Users\Ciprian\Desktop\ZboruriCSharp\ConnectionUtils\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\Ciprian\Desktop\ZboruriCSharp\ConnectionUtils\obj\Debug\ConnectionUtils.csprojAssemblyReference.cache
+C:\Users\Ciprian\Desktop\ZboruriCSharp\ConnectionUtils\obj\Debug\ConnectionUtils.csproj.CoreCompileInputs.cache
+C:\Users\Ciprian\Desktop\ZboruriCSharp\ConnectionUtils\obj\Debug\ConnectionUtils.csproj.CopyComplete
+C:\Users\Ciprian\Desktop\ZboruriCSharp\ConnectionUtils\obj\Debug\ConnectionUtils.exe
+C:\Users\Ciprian\Desktop\ZboruriCSharp\ConnectionUtils\obj\Debug\ConnectionUtils.pdb
+E:\Sem 2 An 2\MPP\ZboruriCSharp\ConnectionUtils\bin\Debug\ConnectionUtils.exe.config
+E:\Sem 2 An 2\MPP\ZboruriCSharp\ConnectionUtils\bin\Debug\ConnectionUtils.exe
+E:\Sem 2 An 2\MPP\ZboruriCSharp\ConnectionUtils\bin\Debug\ConnectionUtils.pdb
+E:\Sem 2 An 2\MPP\ZboruriCSharp\ConnectionUtils\bin\Debug\EntityFramework.dll
+E:\Sem 2 An 2\MPP\ZboruriCSharp\ConnectionUtils\bin\Debug\EntityFramework.SqlServer.dll
+E:\Sem 2 An 2\MPP\ZboruriCSharp\ConnectionUtils\bin\Debug\System.Data.SQLite.dll
+E:\Sem 2 An 2\MPP\ZboruriCSharp\ConnectionUtils\bin\Debug\System.Data.SQLite.EF6.dll
+E:\Sem 2 An 2\MPP\ZboruriCSharp\ConnectionUtils\bin\Debug\System.Data.SQLite.Linq.dll
+E:\Sem 2 An 2\MPP\ZboruriCSharp\ConnectionUtils\bin\Debug\EntityFramework.xml
+E:\Sem 2 An 2\MPP\ZboruriCSharp\ConnectionUtils\bin\Debug\EntityFramework.SqlServer.xml
+E:\Sem 2 An 2\MPP\ZboruriCSharp\ConnectionUtils\bin\Debug\System.Data.SQLite.xml
+E:\Sem 2 An 2\MPP\ZboruriCSharp\ConnectionUtils\bin\Debug\System.Data.SQLite.dll.config
+E:\Sem 2 An 2\MPP\ZboruriCSharp\ConnectionUtils\obj\Debug\ConnectionUtils.csprojAssemblyReference.cache
+E:\Sem 2 An 2\MPP\ZboruriCSharp\ConnectionUtils\obj\Debug\ConnectionUtils.csproj.CoreCompileInputs.cache
+E:\Sem 2 An 2\MPP\ZboruriCSharp\ConnectionUtils\obj\Debug\ConnectionUtils.csproj.CopyComplete
+E:\Sem 2 An 2\MPP\ZboruriCSharp\ConnectionUtils\obj\Debug\ConnectionUtils.exe
+E:\Sem 2 An 2\MPP\ZboruriCSharp\ConnectionUtils\obj\Debug\ConnectionUtils.pdb

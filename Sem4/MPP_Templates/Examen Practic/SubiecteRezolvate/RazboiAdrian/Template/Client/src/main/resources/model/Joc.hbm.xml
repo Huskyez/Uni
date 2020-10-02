@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="model.Joc" table="Joc">
+        <id name="id" column="id" type="java.lang.Integer">
+            <generator class="increment"></generator>
+        </id>
+        <property name="participanti" column="participanti" type="java.lang.String"/>
+        <property name="cartiServer" column="cartiServer" type="java.lang.String"/>
+        <property name="castigator" column="castigator" type="java.lang.String"/>
+        <property name="cartiCastigate" column="cartiCastigate" type="java.lang.String"/>
+    </class>
+</hibernate-mapping>

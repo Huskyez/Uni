@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="model.Game" table="Game">
+        <id name="id" column="ID" type="java.lang.Integer"/>
+        <many-to-one name="user1" not-null="true" lazy="false" column="User1" class="model.User"></many-to-one>
+        <many-to-one name="user2" not-null="true" lazy="false" column="User2" class="model.User"></many-to-one>
+        <property name="pos1" column="Positia1" type="java.lang.String"></property>
+        <property name="pos2" column="Positia2" type="java.lang.String"></property>
+        <property name="winner" column="Winner" type="java.lang.String"></property>
+    </class>
+</hibernate-mapping>

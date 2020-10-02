@@ -1,0 +1,268 @@
+›2019-03-20 08:43:52,670 Test worker DEBUG Initializing configuration XmlConfiguration[location=E:\Sem 2 An 2\MPP\Zboruri\build\resources\main\log4j2.xml]
+D2019-03-20 08:43:52,678 Test worker DEBUG Installed script engines
+á2019-03-20 08:43:52,902 Test worker DEBUG Oracle Nashorn Version: 1.8.0_201, Language: ECMAScript, Threading: Not Thread Safe, Compile: true, Names: {nashorn, Nashorn, js, JS, JavaScript, javascript, ECMAScript, ecmascript}
+R2019-03-20 08:43:52,903 Test worker DEBUG PluginManager 'Core' found 112 plugins
+Q2019-03-20 08:43:52,903 Test worker DEBUG PluginManager 'Level' found 0 plugins
+S2019-03-20 08:43:52,907 Test worker DEBUG PluginManager 'Lookup' found 13 plugins
+ƒ2019-03-20 08:43:52,909 Test worker DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+O2019-03-20 08:43:52,922 Test worker TRACE TypeConverterRegistry initializing.
+Z2019-03-20 08:43:52,922 Test worker DEBUG PluginManager 'TypeConverter' found 26 plugins
+Þ2019-03-20 08:43:52,934 Test worker DEBUG PatternLayout$Builder(pattern="%d{DATE} %-5level %class{36} %L %M - %msg%n", PatternSelector=null, Configuration(E:\Sem 2 An 2\MPP\Zboruri\build\resources\main\log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+V2019-03-20 08:43:52,935 Test worker DEBUG PluginManager 'Converter' found 41 plugins
+‰2019-03-20 08:43:52,946 Test worker DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
+ï2019-03-20 08:43:52,953 Test worker DEBUG ConsoleAppender$Builder(target="SYSTEM_OUT", follow="null", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{DATE} %-5level %class{36} %L %M - %msg%n), name="Console", Configuration(E:\Sem 2 An 2\MPP\Zboruri\build\resources\main\log4j2.xml), Filter=null)
+|2019-03-20 08:43:52,954 Test worker DEBUG Jansi is not installed, cannot find org.fusesource.jansi.WindowsAnsiOutputStream
+_2019-03-20 08:43:52,955 Test worker DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false
+ƒ2019-03-20 08:43:52,955 Test worker DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+Þ2019-03-20 08:43:52,956 Test worker DEBUG PatternLayout$Builder(pattern="%d{DATE} %-5level %class{36} %L %M - %msg%n", PatternSelector=null, Configuration(E:\Sem 2 An 2\MPP\Zboruri\build\resources\main\log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+†2019-03-20 08:43:52,957 Test worker DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.FileAppender].
+®2019-03-20 08:43:52,960 Test worker DEBUG FileAppender$Builder(fileName="target/test.log", append="true", locking="null", advertise="null", advertiseUri="null", createOnDemand="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{DATE} %-5level %class{36} %L %M - %msg%n), name="log", Configuration(E:\Sem 2 An 2\MPP\Zboruri\build\resources\main\log4j2.xml), Filter=null)
+P2019-03-20 08:43:52,962 Test worker DEBUG Starting FileManager target/test.log
+ˆ2019-03-20 08:43:52,962 Test worker DEBUG Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+L2019-03-20 08:43:52,964 Test worker DEBUG createAppenders(={Console, log})
+†2019-03-20 08:43:52,964 Test worker DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+c2019-03-20 08:43:52,968 Test worker DEBUG createAppenderRef(ref="log", level="null", Filter=null)
+†2019-03-20 08:43:52,968 Test worker DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+g2019-03-20 08:43:52,969 Test worker DEBUG createAppenderRef(ref="Console", level="null", Filter=null)
+‹2019-03-20 08:43:52,969 Test worker DEBUG Building Plugin[name=root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
+ß2019-03-20 08:43:52,970 Test worker DEBUG createLogger(additivity="null", level="TRACE", includeLocation="null", ={log, Console}, ={}, Configuration(E:\Sem 2 An 2\MPP\Zboruri\build\resources\main\log4j2.xml), Filter=null)
+„2019-03-20 08:43:52,973 Test worker DEBUG Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+B2019-03-20 08:43:52,974 Test worker DEBUG createLoggers(={root})
+š2019-03-20 08:43:52,975 Test worker DEBUG Configuration XmlConfiguration[location=E:\Sem 2 An 2\MPP\Zboruri\build\resources\main\log4j2.xml] initialized
+—2019-03-20 08:43:52,975 Test worker DEBUG Starting configuration XmlConfiguration[location=E:\Sem 2 An 2\MPP\Zboruri\build\resources\main\log4j2.xml]
+š2019-03-20 08:43:52,975 Test worker DEBUG Started configuration XmlConfiguration[location=E:\Sem 2 An 2\MPP\Zboruri\build\resources\main\log4j2.xml] OK.
+z2019-03-20 08:43:52,976 Test worker TRACE Stopping org.apache.logging.log4j.core.config.DefaultConfiguration@3c9d6ce2...
+~2019-03-20 08:43:52,977 Test worker TRACE DefaultConfiguration notified 1 ReliabilityStrategies that config will be stopped.
+\2019-03-20 08:43:52,980 Test worker TRACE DefaultConfiguration stopping root LoggerConfig.
+€2019-03-20 08:43:52,980 Test worker TRACE DefaultConfiguration notifying ReliabilityStrategies that appenders will be stopped.
+^2019-03-20 08:43:52,980 Test worker TRACE DefaultConfiguration stopping remaining Appenders.
+f2019-03-20 08:43:52,981 Test worker DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+€2019-03-20 08:43:52,981 Test worker DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+^2019-03-20 08:43:52,982 Test worker DEBUG Appender DefaultConsole-1 stopped with status true
+_2019-03-20 08:43:52,982 Test worker TRACE DefaultConfiguration stopped 1 remaining Appenders.
+i2019-03-20 08:43:52,982 Test worker TRACE DefaultConfiguration cleaning Appenders from 1 LoggerConfigs.
+y2019-03-20 08:43:52,983 Test worker DEBUG Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@3c9d6ce2 OK
+§2019-03-20 08:43:53,020 Test worker TRACE Reregistering MBeans after reconfigure. Selector=org.apache.logging.log4j.core.selector.ClassLoaderContextSelector@6ce331ab
+ˆ2019-03-20 08:43:53,021 Test worker TRACE Reregistering context (1/1): '73d16e93' org.apache.logging.log4j.core.LoggerContext@28c124c9
+€2019-03-20 08:43:53,021 Test worker TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=73d16e93'
+—2019-03-20 08:43:53,022 Test worker TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=73d16e93,component=StatusLogger'
+š2019-03-20 08:43:53,023 Test worker TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=73d16e93,component=ContextSelector'
+™2019-03-20 08:43:53,023 Test worker TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=73d16e93,component=Loggers,name=*'
+›2019-03-20 08:43:53,024 Test worker TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=73d16e93,component=Appenders,name=*'
+ 2019-03-20 08:43:53,024 Test worker TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=73d16e93,component=AsyncAppenders,name=*'
+ 2019-03-20 08:43:53,025 Test worker TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=73d16e93,component=AsyncLoggerRingBuffer'
+¬2019-03-20 08:43:53,025 Test worker TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=73d16e93,component=Loggers,name=*,subtype=RingBuffer'
+e2019-03-20 08:43:53,027 Test worker DEBUG Registering MBean org.apache.logging.log4j2:type=73d16e93
+|2019-03-20 08:43:53,030 Test worker DEBUG Registering MBean org.apache.logging.log4j2:type=73d16e93,component=StatusLogger
+2019-03-20 08:43:53,032 Test worker DEBUG Registering MBean org.apache.logging.log4j2:type=73d16e93,component=ContextSelector
+}2019-03-20 08:43:53,034 Test worker DEBUG Registering MBean org.apache.logging.log4j2:type=73d16e93,component=Loggers,name=
+†2019-03-20 08:43:53,035 Test worker DEBUG Registering MBean org.apache.logging.log4j2:type=73d16e93,component=Appenders,name=Console
+‚2019-03-20 08:43:53,036 Test worker DEBUG Registering MBean org.apache.logging.log4j2:type=73d16e93,component=Appenders,name=log
+U2019-03-20 08:43:53,038 Test worker TRACE Using default SystemClock for timestamps.
+[2019-03-20 08:43:53,038 Test worker TRACE Using DummyNanoClock for nanosecond timestamps.
+÷2019-03-20 08:43:53,039 Test worker DEBUG Reconfiguration complete for context[name=73d16e93] at URI E:\Sem 2 An 2\MPP\Zboruri\build\resources\main\log4j2.xml (org.apache.logging.log4j.core.LoggerContext@28c124c9) with optional ClassLoader: null
+Y2019-03-20 08:43:53,039 Test worker DEBUG Shutdown hook enabled. Registering a new one.
+Š2019-03-20 08:43:53,040 Test worker DEBUG LoggerContext[name=73d16e93, org.apache.logging.log4j.core.LoggerContext@28c124c9] started OK.
+g20 Mar 2019 08:43:53,051 TRACE repository.BiletRepository 43 delete - Enter Deleting ticket with id=3
+R20 Mar 2019 08:43:53,054 TRACE repository.DatabaseUtils 39 getConnection - Enter
+U20 Mar 2019 08:43:53,054 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+—20 Mar 2019 08:43:53,055 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+m20 Mar 2019 08:43:53,058 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+|20 Mar 2019 08:43:53,193 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@2d553977)
+L20 Mar 2019 08:43:53,260 TRACE repository.BiletRepository 51 delete - Exit
+K20 Mar 2019 08:43:53,261 TRACE repository.BiletRepository 56 size - Enter
+R20 Mar 2019 08:43:53,261 TRACE repository.DatabaseUtils 39 getConnection - Enter
+U20 Mar 2019 08:43:53,261 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+—20 Mar 2019 08:43:53,262 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+m20 Mar 2019 08:43:53,262 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+|20 Mar 2019 08:43:53,263 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@2614c6d6)
+R20 Mar 2019 08:43:53,264 TRACE repository.BiletRepository 61 size - Exit with(2)
+N20 Mar 2019 08:43:53,265 TRACE repository.BiletRepository 99 findAll - Enter
+R20 Mar 2019 08:43:53,265 TRACE repository.DatabaseUtils 39 getConnection - Enter
+U20 Mar 2019 08:43:53,265 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+—20 Mar 2019 08:43:53,266 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+m20 Mar 2019 08:43:53,266 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+{20 Mar 2019 08:43:53,267 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@f98ee20)
+è20 Mar 2019 08:43:53,268 TRACE repository.BiletRepository 117 findAll - Exit with([Bilet{ID=1, zborID=1, clientID=1, turisti='Vasile, Gheorghe', locuri=20}, Bilet{ID=2, zborID=2, clientID=2, turisti='Ciprian, Bogdan', locuri=10}])
+K20 Mar 2019 08:43:53,269 TRACE repository.BiletRepository 56 size - Enter
+R20 Mar 2019 08:43:53,269 TRACE repository.DatabaseUtils 39 getConnection - Enter
+U20 Mar 2019 08:43:53,270 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+—20 Mar 2019 08:43:53,270 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+m20 Mar 2019 08:43:53,270 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+|20 Mar 2019 08:43:53,271 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@172f5b7f)
+R20 Mar 2019 08:43:53,272 TRACE repository.BiletRepository 61 size - Exit with(2)
+i20 Mar 2019 08:43:53,273 TRACE repository.BiletRepository 73 findOne - Enter Finding ticket with id = 1
+R20 Mar 2019 08:43:53,274 TRACE repository.DatabaseUtils 39 getConnection - Enter
+U20 Mar 2019 08:43:53,274 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+—20 Mar 2019 08:43:53,274 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+m20 Mar 2019 08:43:53,275 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+|20 Mar 2019 08:43:53,275 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@6ea87047)
+M20 Mar 2019 08:43:53,276 TRACE repository.BiletRepository 85 findOne - Exit
+i20 Mar 2019 08:43:53,277 TRACE repository.BiletRepository 73 findOne - Enter Finding ticket with id = 2
+R20 Mar 2019 08:43:53,277 TRACE repository.DatabaseUtils 39 getConnection - Enter
+U20 Mar 2019 08:43:53,278 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+—20 Mar 2019 08:43:53,278 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+m20 Mar 2019 08:43:53,278 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+{20 Mar 2019 08:43:53,279 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@5f783ca)
+M20 Mar 2019 08:43:53,280 TRACE repository.BiletRepository 85 findOne - Exit
+K20 Mar 2019 08:43:53,281 TRACE repository.BiletRepository 56 size - Enter
+R20 Mar 2019 08:43:53,281 TRACE repository.DatabaseUtils 39 getConnection - Enter
+U20 Mar 2019 08:43:53,282 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+—20 Mar 2019 08:43:53,282 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+m20 Mar 2019 08:43:53,282 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+|20 Mar 2019 08:43:53,283 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@2ebab140)
+R20 Mar 2019 08:43:53,284 TRACE repository.BiletRepository 61 size - Exit with(2)
+d20 Mar 2019 08:43:53,285 TRACE repository.BiletRepository 25 save - Enter Saving ticket with id: 3
+R20 Mar 2019 08:43:53,285 TRACE repository.DatabaseUtils 39 getConnection - Enter
+U20 Mar 2019 08:43:53,285 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+—20 Mar 2019 08:43:53,285 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+m20 Mar 2019 08:43:53,286 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+|20 Mar 2019 08:43:53,287 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@4323f34b)
+J20 Mar 2019 08:43:53,343 TRACE repository.BiletRepository 37 save - Exit
+K20 Mar 2019 08:43:53,344 TRACE repository.BiletRepository 56 size - Enter
+R20 Mar 2019 08:43:53,344 TRACE repository.DatabaseUtils 39 getConnection - Enter
+U20 Mar 2019 08:43:53,344 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+—20 Mar 2019 08:43:53,344 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+m20 Mar 2019 08:43:53,345 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+|20 Mar 2019 08:43:53,345 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@6e248920)
+R20 Mar 2019 08:43:53,346 TRACE repository.BiletRepository 61 size - Exit with(3)
+	h20 Mar 2019 08:43:53,351 TRACE repository.ClientRepository 40 delete - Enter Deleting client with id=3
+	R20 Mar 2019 08:43:53,351 TRACE repository.DatabaseUtils 39 getConnection - Enter
+	U20 Mar 2019 08:43:53,352 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+	—20 Mar 2019 08:43:53,352 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+	m20 Mar 2019 08:43:53,352 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+	|20 Mar 2019 08:43:53,353 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@2cbf35f2)
+	M20 Mar 2019 08:43:53,423 TRACE repository.ClientRepository 48 delete - Exit
+	L20 Mar 2019 08:43:53,424 TRACE repository.ClientRepository 53 size - Enter
+	R20 Mar 2019 08:43:53,424 TRACE repository.DatabaseUtils 39 getConnection - Enter
+	U20 Mar 2019 08:43:53,425 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+	—20 Mar 2019 08:43:53,425 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+	m20 Mar 2019 08:43:53,426 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+	|20 Mar 2019 08:43:53,427 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@70da3285)
+	S20 Mar 2019 08:43:53,428 TRACE repository.ClientRepository 58 size - Exit with(2)
+	
+O20 Mar 2019 08:43:53,429 TRACE repository.ClientRepository 94 findAll - Enter
+	
+R20 Mar 2019 08:43:53,430 TRACE repository.DatabaseUtils 39 getConnection - Enter
+	
+U20 Mar 2019 08:43:53,431 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+	
+—20 Mar 2019 08:43:53,431 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+	
+m20 Mar 2019 08:43:53,432 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+	
+|20 Mar 2019 08:43:53,433 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@3a7dd837)
+	
+Ï20 Mar 2019 08:43:53,435 TRACE repository.ClientRepository 110 findAll - Exit with([Client{ID=1, nume='Ionut Frent', adresa='Manastur, CLuj'}, Client{ID=2, nume='Adrian Tamas', adresa='Grigorescu, Cluj'}])
+	
+L20 Mar 2019 08:43:53,436 TRACE repository.ClientRepository 53 size - Enter
+	
+R20 Mar 2019 08:43:53,437 TRACE repository.DatabaseUtils 39 getConnection - Enter
+	
+U20 Mar 2019 08:43:53,437 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+	
+—20 Mar 2019 08:43:53,438 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+	
+m20 Mar 2019 08:43:53,438 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+	
+|20 Mar 2019 08:43:53,439 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@3c26e1a3)
+	
+S20 Mar 2019 08:43:53,441 TRACE repository.ClientRepository 58 size - Exit with(2)
+	j20 Mar 2019 08:43:53,442 TRACE repository.ClientRepository 70 findOne - Enter Finding client with id = 1
+	R20 Mar 2019 08:43:53,443 TRACE repository.DatabaseUtils 39 getConnection - Enter
+	U20 Mar 2019 08:43:53,444 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+	—20 Mar 2019 08:43:53,445 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+	m20 Mar 2019 08:43:53,445 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+	|20 Mar 2019 08:43:53,447 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@68ce3a70)
+	N20 Mar 2019 08:43:53,449 TRACE repository.ClientRepository 80 findOne - Exit
+	j20 Mar 2019 08:43:53,450 TRACE repository.ClientRepository 70 findOne - Enter Finding client with id = 2
+	R20 Mar 2019 08:43:53,450 TRACE repository.DatabaseUtils 39 getConnection - Enter
+	U20 Mar 2019 08:43:53,451 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+	—20 Mar 2019 08:43:53,452 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+	m20 Mar 2019 08:43:53,452 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+	|20 Mar 2019 08:43:53,454 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@40bcffb8)
+	N20 Mar 2019 08:43:53,455 TRACE repository.ClientRepository 80 findOne - Exit
+	L20 Mar 2019 08:43:53,457 TRACE repository.ClientRepository 53 size - Enter
+	R20 Mar 2019 08:43:53,457 TRACE repository.DatabaseUtils 39 getConnection - Enter
+	U20 Mar 2019 08:43:53,458 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+	—20 Mar 2019 08:43:53,458 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+	m20 Mar 2019 08:43:53,459 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+	|20 Mar 2019 08:43:53,460 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@109194a4)
+	S20 Mar 2019 08:43:53,462 TRACE repository.ClientRepository 58 size - Exit with(2)
+	e20 Mar 2019 08:43:53,462 TRACE repository.ClientRepository 25 save - Enter Saving client with id: 3
+	R20 Mar 2019 08:43:53,463 TRACE repository.DatabaseUtils 39 getConnection - Enter
+	U20 Mar 2019 08:43:53,463 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+	—20 Mar 2019 08:43:53,464 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+	m20 Mar 2019 08:43:53,464 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+	|20 Mar 2019 08:43:53,465 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@1bb144ec)
+	K20 Mar 2019 08:43:53,529 TRACE repository.ClientRepository 35 save - Exit
+	L20 Mar 2019 08:43:53,530 TRACE repository.ClientRepository 53 size - Enter
+	R20 Mar 2019 08:43:53,530 TRACE repository.DatabaseUtils 39 getConnection - Enter
+	U20 Mar 2019 08:43:53,531 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+	—20 Mar 2019 08:43:53,531 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+	m20 Mar 2019 08:43:53,532 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+	{20 Mar 2019 08:43:53,533 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@2b5e050)
+	S20 Mar 2019 08:43:53,534 TRACE repository.ClientRepository 58 size - Exit with(3)
+f20 Mar 2019 08:43:53,544 TRACE repository.ZborRepository 42 delete - Enter Deleting flight with id=3
+R20 Mar 2019 08:43:53,545 TRACE repository.DatabaseUtils 39 getConnection - Enter
+U20 Mar 2019 08:43:53,545 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+—20 Mar 2019 08:43:53,546 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+m20 Mar 2019 08:43:53,546 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+|20 Mar 2019 08:43:53,547 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@397b1a2b)
+K20 Mar 2019 08:43:53,613 TRACE repository.ZborRepository 50 delete - Exit
+J20 Mar 2019 08:43:53,614 TRACE repository.ZborRepository 55 size - Enter
+R20 Mar 2019 08:43:53,614 TRACE repository.DatabaseUtils 39 getConnection - Enter
+U20 Mar 2019 08:43:53,615 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+—20 Mar 2019 08:43:53,615 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+m20 Mar 2019 08:43:53,616 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+|20 Mar 2019 08:43:53,617 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@287cbfcc)
+Q20 Mar 2019 08:43:53,619 TRACE repository.ZborRepository 60 size - Exit with(2)
+M20 Mar 2019 08:43:53,620 TRACE repository.ZborRepository 97 findAll - Enter
+R20 Mar 2019 08:43:53,621 TRACE repository.DatabaseUtils 39 getConnection - Enter
+U20 Mar 2019 08:43:53,622 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+—20 Mar 2019 08:43:53,622 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+m20 Mar 2019 08:43:53,623 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+{20 Mar 2019 08:43:53,624 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@5666df3)
+„20 Mar 2019 08:43:53,652 TRACE repository.ZborRepository 115 findAll - Exit with([Zbor{ID=1, destinatie='Paris', plecare=2019-03-12T13:44, aeroport='BUD', locuri=150}, Zbor{ID=2, destinatie='Copenhaga', plecare=2019-03-20T12:22, aeroport='LYS', locuri=200}])
+J20 Mar 2019 08:43:53,654 TRACE repository.ZborRepository 55 size - Enter
+R20 Mar 2019 08:43:53,654 TRACE repository.DatabaseUtils 39 getConnection - Enter
+U20 Mar 2019 08:43:53,655 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+—20 Mar 2019 08:43:53,655 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+m20 Mar 2019 08:43:53,656 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+|20 Mar 2019 08:43:53,657 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@4642dd08)
+Q20 Mar 2019 08:43:53,658 TRACE repository.ZborRepository 60 size - Exit with(2)
+h20 Mar 2019 08:43:53,660 TRACE repository.ZborRepository 72 findOne - Enter Finding flight with id = 1
+R20 Mar 2019 08:43:53,661 TRACE repository.DatabaseUtils 39 getConnection - Enter
+U20 Mar 2019 08:43:53,661 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+—20 Mar 2019 08:43:53,662 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+m20 Mar 2019 08:43:53,663 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+|20 Mar 2019 08:43:53,664 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@4062e464)
+L20 Mar 2019 08:43:53,666 TRACE repository.ZborRepository 84 findOne - Exit
+h20 Mar 2019 08:43:53,668 TRACE repository.ZborRepository 72 findOne - Enter Finding flight with id = 2
+R20 Mar 2019 08:43:53,668 TRACE repository.DatabaseUtils 39 getConnection - Enter
+U20 Mar 2019 08:43:53,669 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+—20 Mar 2019 08:43:53,670 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+m20 Mar 2019 08:43:53,670 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+|20 Mar 2019 08:43:53,672 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@7b6205dd)
+L20 Mar 2019 08:43:53,673 TRACE repository.ZborRepository 84 findOne - Exit
+J20 Mar 2019 08:43:53,675 TRACE repository.ZborRepository 55 size - Enter
+R20 Mar 2019 08:43:53,678 TRACE repository.DatabaseUtils 39 getConnection - Enter
+U20 Mar 2019 08:43:53,679 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+—20 Mar 2019 08:43:53,680 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+m20 Mar 2019 08:43:53,681 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+|20 Mar 2019 08:43:53,682 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@7713eff4)
+Q20 Mar 2019 08:43:53,684 TRACE repository.ZborRepository 60 size - Exit with(2)
+c20 Mar 2019 08:43:53,686 TRACE repository.ZborRepository 25 save - Enter Saving flight with id: 3
+R20 Mar 2019 08:43:53,687 TRACE repository.DatabaseUtils 39 getConnection - Enter
+U20 Mar 2019 08:43:53,688 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+—20 Mar 2019 08:43:53,689 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+m20 Mar 2019 08:43:53,690 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+|20 Mar 2019 08:43:53,692 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@2769d683)
+I20 Mar 2019 08:43:53,755 TRACE repository.ZborRepository 37 save - Exit
+J20 Mar 2019 08:43:53,755 TRACE repository.ZborRepository 55 size - Enter
+R20 Mar 2019 08:43:53,756 TRACE repository.DatabaseUtils 39 getConnection - Enter
+U20 Mar 2019 08:43:53,756 TRACE repository.DatabaseUtils 21 getNewConnection - Enter
+—20 Mar 2019 08:43:53,756 INFO  repository.DatabaseUtils 24 getNewConnection - Connecting to jdbc:sqlite:E://Sem 2 An 2//MPP//Zboruri//databasetest.db
+m20 Mar 2019 08:43:53,756 INFO  repository.DatabaseUtils 28 getNewConnection - Loaded driver org.sqlite.JDBC
+|20 Mar 2019 08:43:53,757 TRACE repository.DatabaseUtils 47 getConnection - Exit with(org.sqlite.SQLiteConnection@70ff47ce)
+Q20 Mar 2019 08:43:53,758 TRACE repository.ZborRepository 60 size - Exit with(3)
