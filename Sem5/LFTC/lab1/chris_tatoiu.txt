@@ -1,0 +1,35 @@
+program = "#include <iostream>" "using namespce std;" "int main(){" lista_instr "}"
+program = "#include <iostream>" "using namespce std;" tip_data "int main(){" lista_instr "}"
+tip_data = "struct" ID "{" Lista_declarare"};"
+Lista_declarare = declaratie ";" Lista_declarare
+Lista_declarare = declaratie ";"
+lista_instr = instr ";" lista_instr
+lista_instr = instr ";"
+instr = atribuire
+instr = instr_if
+instr = instr_for
+instr = declaratie
+instr = citire
+instr = afisare
+declaratie = ("int"|"char"|"float") ID
+citire = "cin>>" ID
+afisare = "cout<<" ID
+aifsare = "cout<<" expr
+afisare = 'cout<<"' cuvant '"'
+atribuire = ID "=" expr
+instr_if = "if" "(" expr ")" "{" lista_instr "}"
+instr_for = "for(" (declaratie|ID) "=" expr";" expresie ";" atribuire")" "{" lista_instr "}"
+
+ 
+
+expr = expr operator ID constanta
+expr = ID|constanta
+operator = "+"|"-"|"*"|"/"|"%"|"<"|">"|"=="|"<="|">="|
+constanta = [1-9][0-9]*|"0"|"."|"-"constanta
+ID = ID [a-z]|[A-Z]|"_"|[0-9] 
+ID = [a-z]|[A-Z]|"_"
+
+ 
+
+cuvant = ID [a-z]|[A-Z]|"_"|[0-9]|"\n"|" "|":"
+cuvant = [a-z]|[A-Z]|"_"|"\n"|" "|[0-9]|":"

@@ -1,0 +1,46 @@
+
+program = decl_list "{" instr_list "}"
+
+decl_list = { decl }
+decl = type, ID, ";"
+decl = "define", type, type_name ";"
+
+type = "int" | "real"
+
+instr_list = { instr }
+
+instr = assignment | conditional | loop | read | write
+
+
+operator = "+" | "-" | "*" | "/" | "%"
+relation =  "==" | "!=" | ">=" | "<=" | ">" | "<"
+
+
+expr = expr, operator, expr
+expr = ID
+expr = CONST
+
+condition = expr, relation, expr
+
+
+assignment = ID, "=", expr, ";"
+conditional = "if", condition, "->", "{", instr_list, "}"
+
+loop = "while" condition "->" "{" instr_list "}"
+
+read = "read" ID ";"
+write = "write" ID ";"
+write = "write" string ";"
+
+
+type_name = letter, { letter }
+
+ID = letter { letter } { number }
+CONST = "0" | non_zero_number { number } | number "." { number }
+
+letter = "a" | "b" | "c" | "d" | "e" .. | "z" | "A" | "B" | "C" | "D" | "E" .. | "Z"
+
+number = "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9"
+non_zero_number = "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9"
+
+string = "'"{ { letter } {" "} { letter } }"'"
