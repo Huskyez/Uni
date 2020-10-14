@@ -1,0 +1,13 @@
+Cerinte
+
+Laborator 0
+Implementare: Java si C++(11 ...)
+Set de functii de ajutor in realizarea laboratoarelor:
+1) creare de fisier care contine numere intregi aleatoare dintr-un interval precizat (parametrii: file_name; size; min; max)
+2) verificare daca doua fisiere contin acelasi date (pentru date de tip: intreg, real)
+necesitate - verificarea corectitudinii
+
+Detalii de implementare
+
+Functia "CreateFile" creaza un fisier cu numele dat daca nu exista deja si genereaza size numere aleatoare
+intre min si max (cate un element pe coloana)

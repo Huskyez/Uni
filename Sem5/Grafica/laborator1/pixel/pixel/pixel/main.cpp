@@ -25,7 +25,24 @@ void init(GLFWwindow* window)
 	}
 
 	glfwSwapInterval(1);
+
+	// INIȚIALIZARE:
+	renderingProgram = createShaderProgram(); // asamblează shader-ul
+	glGenVertexArrays(numVAOs, vao);		  // In program OpenGL are nevoie de cel puțin un vertex array object
+	glBindVertexArray(vao[0]);				  // care să fie legat la contextul OpenGL
 }
+
+void display(GLFWwindow* window, double currentTime)
+{
+	// COD PENTRU DESENARE
+	glClearColor(0.1, 0.3, 0.6, 1.0); // selectează o culoare pentru resetarea bufferului de culoare
+	glClear(GL_COLOR_BUFFER_BIT);	  // resetează bufferul de culoarea
+	glUseProgram(renderingProgram);	  // încarcă programul de shading
+	glPointSize(50.0f);
+	glDrawArrays(GL_POINTS, 0, 1);	  // desenează orice (un punct aici) pentru a activa shader-ul
+
+}
+
 
 int main(void)
 {
@@ -35,25 +52,15 @@ int main(void)
 	}
 
 	// OpenGL version 4.3
-//	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4);
-//	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
+	// glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4);
+	// glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
 
 	GLFWwindow *window = glfwCreateWindow(1024, 768, "Laborator 1 - Hello Pixăl", NULL, NULL);
 	init(window);
 
-	// INIȚIALIZARE:
-	renderingProgram = createShaderProgram(); // asamblează shader-ul
-	glGenVertexArrays(numVAOs, vao);		  // In program OpenGL are nevoie de cel puțin un vertex array object
-	glBindVertexArray(vao[0]);				  // care să fie legat la contextul OpenGL
-
 	while (!glfwWindowShouldClose(window))
 	{
-		// COD PENTRU DESENARE
-		glClearColor(0.1, 0.3, 0.6, 1.0); // selectează o culoare pentru resetarea bufferului de culoare
-		glClear(GL_COLOR_BUFFER_BIT);	  // resetează bufferul de culoarea
-		glUseProgram(renderingProgram);	  // încarcă programul de shading
-		glPointSize(30.0f);
-		glDrawArrays(GL_POINTS, 0, 1);	  // desenează orice (un punct aici) pentru a activa shader-ul
+		display(window, glfwGetTime());
 
 		glfwSwapBuffers(window); // update window buffer
 		glfwPollEvents();		 // windows related events:
@@ -83,7 +90,7 @@ GLuint createFragmentShader()
 		"#version 430 \n"
 		"out vec4 color; \n"
 		"void main(void) \n"
-		"{ color = vec4(1.0, 0.5, 0.0, 1.0); }";
+		"{ color = vec4(1.0, 0.5, 1.0, 1.0); }";
 	GLuint fShader = glCreateShader(GL_FRAGMENT_SHADER);
 	glShaderSource(fShader, 1, &fshaderSource, NULL);
 	glCompileShader(fShader);

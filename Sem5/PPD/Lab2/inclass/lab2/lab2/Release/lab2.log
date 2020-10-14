@@ -1,0 +1,7 @@
+﻿  Source.cpp
+D:\Uni\Sem5\PPD\Lab2\inclass\lab2\lab2\src\Source.cpp(37,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 186 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  lab2.vcxproj -> D:\Uni\Sem5\PPD\Lab2\inclass\lab2\Release\lab2.exe

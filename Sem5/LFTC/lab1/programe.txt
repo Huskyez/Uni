@@ -1,0 +1,77 @@
+
+----- Permietrul si aria unui cerc -----------------
+
+real arie;
+real perimetru;
+real raza;
+real pi;
+
+{
+	pi = 3.1415926535;
+	read raza;
+	perimetru = 2 * pi * raza;
+	arie = raza * pi * pi;
+}
+
+
+----- Calculeaza suma a n nr citite de la tastatura -----------------
+
+int i;
+int n;
+real x;
+real sum;
+
+{
+	read n;
+	i = 0;
+	sum = 0;
+
+	while i < n -> {
+		read x;
+		sum = sum + x;
+		i = i + 1;
+	}
+
+	write sum;
+}
+
+
+
+
+----- Verifica daca un nr e prim -----------------
+
+int nr;
+int i;
+int isPrime;
+
+{	
+	isPrime = 1;
+	i = 2;
+
+	while 2 * i < nr -> {
+		if nr % i == 0 -> {
+			isPrime = 0;
+		}
+		i = i + 1;
+	}
+
+	if isPrime == 0 -> {
+		write 'Nr nu e prim';
+	}
+
+	if isPrime == 1 -> {
+		write 'Nr e prim';
+	}
+
+}
+
+
+----------------- Eroarea in abmbele -------------------------
+
+this is definitely wrong;
+
+---------------- Eroare doar in MLP -------------------------
+
+int x = 0x1337;
+
+-------------------------------------------------------------

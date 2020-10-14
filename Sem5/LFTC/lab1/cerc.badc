@@ -1,0 +1,11 @@
+real arie;
+real perimetru;
+real raza;
+real pi;
+
+{
+	pi = 3.14;
+	read raza;
+	perimetru = 2 * pi * raza;
+	arie = raza * pi * pi;
+}

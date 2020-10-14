@@ -1,3 +1,6 @@
 ﻿  window.cpp
-D:\Uni\Sem5\Grafica pe Calculator\laborator1\window\window\window\src\window.cpp(33,34): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
-  window.vcxproj -> D:\Uni\Sem5\Grafica pe Calculator\laborator1\window\window\x64\Debug\window.exe
+D:\Uni\Sem5\Grafica\laborator1\window\window\window\src\window.cpp(33,34): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'D:\Uni\Sem5\Grafica\laborator1\window\window\x64\Debug\vc120.pdb'; linking object as if no debug info
+  window.vcxproj -> D:\Uni\Sem5\Grafica\laborator1\window\window\x64\Debug\window.exe

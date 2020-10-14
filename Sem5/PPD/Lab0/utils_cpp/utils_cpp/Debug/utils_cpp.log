@@ -1,0 +1,4 @@
+﻿  Source.cpp
+D:\Uni\Sem5\PPD\Lab0\utils_cpp\utils_cpp\src\Source.cpp(21,20): warning C4018: '<': signed/unsigned mismatch
+D:\Uni\Sem5\PPD\Lab0\utils_cpp\utils_cpp\src\Source.cpp(89,17): warning C4018: '<': signed/unsigned mismatch
+  utils_cpp.vcxproj -> D:\Uni\Sem5\PPD\Lab0\utils_cpp\Debug\utils_cpp.exe
